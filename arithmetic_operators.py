@@ -1,0 +1,11 @@
+print("This program takes two numbers and performs arithmetic operations on them.")
+a:int=int(input("Enter first number: "))
+b:int=int(input("Enter second number: "))
+
+print("The sum of the two numbers is: ", a + b)
+print("The difference of the two numbers is: ", a - b)
+print("The product of the two numbers is: ", a * b)
+print("The quotient of the two numbers is: ", a / b)
+print("The remainder of the two numbers is: ", a % b)
+print("The exponent of the two numbers is: ", a ** b)
+print("The floor division of the two numbers is: ", a // b)
